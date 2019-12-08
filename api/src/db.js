@@ -5,8 +5,12 @@ const users =  [
         birthDate: "2010-01-01"
     }, {
         id: 2,
-        title: "Bon",
+        title: "Bob",
         birthDate: "2005-12-12"
+    }, {
+        id: 3,
+        title: "Mike",
+        birthDate: "2000-12-12"
     }
 ];
 
