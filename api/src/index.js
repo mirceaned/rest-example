@@ -35,5 +35,5 @@ app.post('/api/v1/users', (req, res) => {
 });
 
 app.listen(5000, () => {
-    console.log(`server running Server is running on http://localhost:5000`)
+    console.log(`REST server running on http://localhost:5000`)
 });
