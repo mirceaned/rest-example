@@ -1,9 +1,13 @@
-const todos =  [
+const users =  [
     {
         id: 1,
-        title: "lunch",
-        description: "Go for lunch by 2pm"
+        name: "Alice",
+        birthDate: "2010-01-01"
+    }, {
+        id: 2,
+        title: "Bon",
+        birthDate: "2005-12-12"
     }
 ];
 
-export default todos;
+export default users;

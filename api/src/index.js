@@ -3,10 +3,10 @@ import db from './db';
 
 const app = express();
 
-app.get('/api/v1/todos', (req, res) => {
+app.get('/api/v1/users', (req, res) => {
     res.status(200).send({
         success: 'true',
-        message: 'todos retrieved successfully',
+        message: 'users retrieved successfully',
         todos: db
     })
 });
