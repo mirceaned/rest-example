@@ -6,7 +6,6 @@ const app = express();
 app.get('/api/v1/users', (req, res) => {
     res.status(200).send({
         success: 'true',
-        message: 'users retrieved successfully',
         todos: db
     })
 });
