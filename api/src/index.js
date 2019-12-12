@@ -21,7 +21,7 @@ const users =  [
 app.get('/api/v1/users', (req, res) => {
     res.status(200).send({
         success: 'true',
-        todos: users
+        users: users
     })
 });
 
